@@ -1,3 +1,8 @@
+## A silly motivational bot made with python using Telegram. 
+## This is a customizable bot that writes motivational quotes whenever you want in Norwegian to send to yourself on Telegram on phone for example as a way of notifying!
+
+
+
 Steps to make it work:
 
 1. Install Telegram from Google or whatever...
