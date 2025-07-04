@@ -50,3 +50,19 @@ Steps to make it work:
     }
     ```
 Check the value of `result.0.message.chat.id`, and here is our Chat ID: `21xxxxx38` in this example...
+Save the Chat Id somewhere for later use.
+## When you run the python file it will ask for the Token and the chat id. Just put those in and the program should work. 
+
+Optional:
+If you want to avoid having to input all the time, change this on line 291 & 292:
+```
+bot_token = input("Skriv inn din Telegram bot token: ")
+chat_id = input("Skriv inn Telegram chat ID for å sende meldinger: ")
+```
+Into this and paste the token and id into the parenthesis:
+```
+bot_token = "PASTE YOUR TOKEN IN HERE"
+chat_id = "PASTE YOUR CHAT ID IN HERE"
+```
+
+Now you don't need to paste into the terminal everytime you run the program!
